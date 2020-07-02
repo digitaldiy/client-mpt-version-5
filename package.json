@@ -1,0 +1,46 @@
+{
+  "name": "netlify-cms-custom-widget",
+  "private": true,
+  "description": "An example of a custom widget for Netlify CMS",
+  "version": "0.1.0",
+  "author": "Yuri Drabik <yurist38@mail.ru>",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^16.0.0",
+    "@ckeditor/ckeditor5-react": "^2.0.0",
+    "gatsby": "^2.23.18",
+    "gatsby-image": "^2.2.34",
+    "gatsby-plugin-manifest": "^2.2.30",
+    "gatsby-plugin-netlify-cms": "^4.1.31",
+    "gatsby-plugin-offline": "^3.0.24",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-sharp": "^2.3.4",
+    "gatsby-source-filesystem": "^2.1.39",
+    "gatsby-transformer-sharp": "^2.3.6",
+    "netlify-cms-app": "^2.9.7",
+    "netlify-cms-widget-colorpickers": "0.3.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/room-js/netlify-cms-custom-widget"
+  }
+}

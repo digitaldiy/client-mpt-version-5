@@ -1,2 +1,2 @@
-# client-mpt-version-5
-Created with CodeSandbox
+# netlify-cms-custom-widget
+Small demo to show how to create a custom widget for Netlify CMS
